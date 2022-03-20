@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Ivan Sosnovik</title>
+    <meta name="author" content="Ivan Sosnovik">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSDC6YDL25"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CSDC6YDL25');
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- BIO -->
+        <div class="row bio">
+            <div class="col-md-9 order-2 order-md-1">
+                <h1 style="text-align:center;">Ivan Sosnovik</h1>
+                <p>
+                    I am a PhD student at Delta Lab at the University of Amsterdam, supervised by
+                    <a href="https://staff.fnwi.uva.nl/a.w.m.smeulders/">Arnold Smeulders</a>.
+                    My research mainly focuses on developing networks that are equivariant
+                    to principle transformations of the data.
+                </p>
+                <p>
+                    I received my MSc from Phystech and Skoltech, where I worked on the connection of neural
+                    networks and topology optimization under the supervision of
+                    <a href="https://oseledets.github.io/">Ivan Oseledets</a>.
+                    I did my bachelor's at Phystech, where I studied experimental low-temperature
+                    physics.
+                </p>
+                <p>
+                    Recently Artem Moskalev and I gave a talk on "Scale-Equivariant CNNs for Computer Vision" at <a
+                        href="https://computervisiontalks.github.io/">Computer Vision Talks</a>. You
+                    can watch it <a href="https://www.youtube.com/watch?v=3YLQ3u7Ahkk">here</a>.
+                </p>
+                <p>
+                    I spent the summer of 2021 as an applied science intern at Amazon Machine Learning Solutions Lab.
+                </p>
+                <p>
+                    &#127881;Our paper "DISCO: accurate Discrete Scale Convolution" has won BMVC 2021
+                    Best Paper Award.&#127881;
+                </p>
+                <p>
+                    Recently Artem Moskalev and I gave an <a
+                        href="https://www.rsipvision.com/ComputerVisionNews-2022January/10/">interview</a> about DISCO.
+                </p>
+                <p style="text-align:center">
+                    <a href="mailto:i.sosnovik@uva.nl">Email</a> |
+                    <a href="src/pdfs/cv.pdf">CV</a> |
+                    <a href="https://scholar.google.com/citations?user=brUsNccAAAAJ">Google Scholar</a> |
+                    <a href="https://github.com/ISosnovik">GitHub</a> |
+                    <a href="https://twitter.com/isosnovik">Twitter</a>
+                </p>
+            </div>
+            <div class="col-md-3 order-1 order-md-2 avatar">
+                <img class="img-responsive" src="src/images/profile_pic.jpg" alt="avatar">
+            </div>
+        </div>
+
+        <!-- PUBLICATIONS -->
+        <h2>Publications</h2>
+
+        <div class="row publications">
+            <div class="col-md-5">
+                <img class="img-responsive" src="src/images/wiggling.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+                <p class="title">Wiggling Weights to Improve the Robustness of Classifiers</p>
+                <p class="authors">Sadaf Gulshad*, Ivan Sosnovik*, Arnold Smeulders
+                </p>
+                <p class="conf">Preprint, 2021</p>
+                <p class="description">
+                    While many approaches for robustness train the network by providing augmented data to the network,
+                    we aim to integrate perturbations in the network architecture to achieve improved
+                    and more general robustness.
+                </p>
+                <div class="links">
+                    <a href="https://arxiv.org/pdf/2111.09779.pdf">Paper</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+
+        <div class="row publications">
+            <div class="col-md-5">
+                <img class="img-responsive" src="src/images/disco2.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+                <p class="title">DISCO: accurate Discrete Scale Convolution <b
+                        style="color:rgb(235, 68, 241) !important;">(Best
+                        Paper Award!!!)</b></p>
+                <p class="authors">Ivan Sosnovik, Artem Moskalev, Arnold Smeulders
+                </p>
+                <p class="conf">BMVC, <b style="color:#B09 !important;">Oral</b>, 2021</p>
+                <p class="description">
+                    We develop a better class of discrete scale equivariant CNNs, which are more accurate and faster
+                    than all previous methods. As a result of accurate scale analysis, they allow for a biased scene
+                    geometry estimation almost for free.
+                </p>
+                <div class="links">
+                    <a href="https://arxiv.org/abs/2106.02733">Paper</a> |
+                    <a href="https://www.bmvc2021-virtualconference.com/conference/papers/paper_1258.html">Poster and
+                        Video</a> |
+                    <a href="https://github.com/isosnovik/disco">Code</a> |
+                    <a href="https://www.rsipvision.com/ComputerVisionNews-2022January/10/">Interview</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+
+        <div class="row publications">
+            <div class="col-md-5">
+                <img class="img-responsive" src="src/images/rem.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+                <p class="title">Relational Prior for Multi-Object Tracking</p>
+                <p class="authors">Artem Moskalev, Ivan Sosnovik, Arnold Smeulders
+                </p>
+                <p class="conf">ICCV VIPriors Workshop, <b style="color:#B09 !important;">Oral</b>, 2021</p>
+                <p class="description">
+                    Tracking multiple objects individually differs from tracking groups of related objects.
+                    We propose a plug-in Relation Encoding Module which encodes relations between tracked objects
+                    to improve multi-object tracking.
+                </p>
+                <div class="links">
+                    <a
+                        href="https://openaccess.thecvf.com/content/ICCV2021W/VIPriors/papers/Moskalev_Relational_Prior_for_Multi-Object_Tracking_ICCVW_2021_paper.pdf">Paper</a>
+                    | <a href="src/pdfs/poster_vipriors_rem.pdf">Poster</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+
+        <div class="row publications">
+            <div class="col-md-5">
+                <img class="img-responsive" src="src/images/disco1.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+                <p class="title">How to Transform Kernels for Scale-Convolutions</p>
+                <p class="authors">Ivan Sosnovik, Artem Moskalev, Arnold Smeulders
+                </p>
+                <p class="conf">ICCV VIPriors Workshop, 2021</p>
+                <p class="description">
+                    To reach accurate scale equivariance, we derive general constraints under
+                    which scale-convolution remains equivariant to discrete rescaling.
+                    We find the exact solution for all cases where it exists,
+                    and compute the approximation for the rest.
+                </p>
+                <div class="links">
+                    <a
+                        href="https://openaccess.thecvf.com/content/ICCV2021W/VIPriors/papers/Sosnovik_How_To_Transform_Kernels_for_Scale-Convolutions_ICCVW_2021_paper.pdf">Paper</a>
+                    | <a href="src/pdfs/poster_vipriors_disco.pdf">Poster</a> |
+                    <a href="https://github.com/isosnovik/disco">Code</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row publications">
+            <div class="col-md-5">
+                <img class="img-responsive" src="src/images/rem2.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+                <p class="title">Two is a Crowd: Tracking Relations in Videos</p>
+                <p class="authors">Artem Moskalev, Ivan Sosnovik, Arnold Smeulders
+                </p>
+                <p class="conf">Preprint, 2021</p>
+                <p class="description">
+                    We propose a plug-in Relation Encoding Module to learn a spatio-temporal graph of
+                    correspondences between objects within and between frames. The proposed module allows
+                    for tracking even fully occluded objects by utilizing relational cues.
+                </p>
+                <div class="links">
+                    <a href="https://arxiv.org/abs/2108.05331">Paper</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row publications">
+            <div class="col-md-5">
+                <img class="img-responsive" src="src/images/eaconv.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+                <p class="title">Built-in Elastic Transformations for Improved Robustness</p>
+                <p class="authors">Sadaf Gulshad*, Ivan Sosnovik*, Arnold Smeulders
+                </p>
+                <p class="conf">Preprint, 2021</p>
+                <p class="description">
+                    We present elastically-augmented convolutions (EAConv)
+                    by parameterizing filters as a combination of fixed elastically-perturbed bases
+                    functions and trainable weights for the purpose of integrating unseen viewpoints in CNNs.
+                </p>
+                <div class="links">
+                    <a href="https://arxiv.org/abs/2107.09391">Paper</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row publications">
+            <div class="col-md-5">
+                <img class="img-responsive" src="src/images/siamse.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+                <p class="title">Scale Equivariance Improves Siamese Tracking</p>
+                <p class="authors">Ivan Sosnovik*, Artem Moskalev*, Arnold Smeulders
+                </p>
+                <p class="conf">WACV, 2021</p>
+                <p class="description">
+                    In this paper, we develop the theory for scale-equivariant Siamese trackers.
+                    We also provide a simple recipe for how to make a wide range of existing trackers
+                    scale-equivariant to capture the natural variations of the target a priori.
+                </p>
+                <div class="links">
+                    <a href="https://arxiv.org/abs/2007.09115">Paper</a> |
+                    <a href="https://github.com/isosnovik/SiamSE">Code</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row publications">
+            <div class="col-md-5">
+                <img class="img-responsive" src="src/images/sesn.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+                <p class="title">Scale-Equivariant Steerable Networks</p>
+                <p class="authors">Ivan Sosnovik, Michał Szmaja, Arnold Smeulders
+                </p>
+                <p class="conf">ICLR, 2020</p>
+                <p class="description">
+                    We introduce the general theory for building scale-equivariant convolutional networks with
+                    steerable filters. We develop scale-convolution and generalize other common blocks to be
+                    scale-equivariant.
+                </p>
+                <div class="links">
+                    <a href="https://arxiv.org/abs/1910.11093">arXiv</a> |
+                    <a href="https://openreview.net/forum?id=HJgpugrKPS">OpenReview</a> |
+                    <a href="https://github.com/isosnovik/sesn">Code</a> |
+                    <a href="https://iclr.cc/virtual_2020/poster_HJgpugrKPS.html">Poster and Video</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row publications">
+            <div class="col-md-5">
+                <img class="img-responsive" src="src/images/scnf.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+                <p class="title">Semi-Conditional Normalizing Flows for Semi-Supervised Learning</p>
+                <p class="authors">Andrei Atanov, Alexandra Volokhova, Arsenii Ashukha, Ivan Sosnovik, Dmitry Vetrov</p>
+                <p class="conf">ICML INNF, 2019</p>
+                <p class="description">
+                    This paper proposes a semi-conditional normalizing flow model for semi-supervised learning. The
+                    model uses both labelled and unlabeled data to learn an explicit model of joint distribution over
+                    objects and labels.
+                </p>
+                <div class="links">
+                    <a href="https://arxiv.org/abs/1905.00505">Paper</a> |
+                    <a href="https://github.com/bayesgroup/semi-supervised-NFs">Code</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row publications">
+            <div class="col-md-5">
+                <img class="img-responsive" src="src/images/nn4topopt.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+                <p class="title">Neural Networks for Topology Optimization</p>
+                <p class="authors">Ivan Sosnovik, Ivan Oseledets
+                </p>
+                <p class="conf">Russian Journal of Numerical Analysis and Mathematical Modelling 34 (4), 2019</p>
+                <p class="description">
+                    In this research, we propose a deep learning based approach for speeding up the topology
+                    optimization methods. We formulate the problem as image segmentation
+                    and leverage the power of deep learning to perform pixel-wise image labeling.
+                </p>
+                <div class="links">
+                    <a href="https://arxiv.org/abs/1709.09578">arXiv</a> |
+                    <a href="https://www.degruyter.com/view/journals/rnam/34/4/article-p215.xml">Journal</a> |
+                    <a href="https://github.com/ISosnovik/nn4topopt">Code</a> |
+                    <a href="https://github.com/ISosnovik/top">Dataset</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row publications">
+            <div class="col-md-5">
+                <img class="img-responsive" src="src/images/pie.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+                <p class="title">PIE: Pseudo-Invertible Encoder</p>
+                <p class="authors">Jan Jetze Beitler*, Ivan Sosnovik*, Arnold Smeulders
+                </p>
+                <p class="conf">Preprint, 2018</p>
+                <p class="description">
+                    We introduce a new class of likelihood-based autoencoders with pseudo bijective architecture, which
+                    we
+                    call Pseudo Invertible Encoders. We provide the theoretical explanation of their principles.
+                </p>
+                <div class="links">
+                    <a href="https://arxiv.org/abs/2111.00619">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ETC -->
+        <h2 style="margin-top:40px;">Open Source Projects</h2>
+        <div class="row">
+            <ul>
+                <li>
+                    <a href="https://github.com/ISosnovik/automark">AutoMark</a> —
+                    a lightweight tool for testing programming assignments written in Python. It was used a lot for
+                    automating assessment of homework assignments at "Applied Machine Learning" at the UvA.
+                </li>
+                <li>
+                    <a href="https://github.com/williamhunter/topy">ToPy</a> —
+                    a lightweight topology optimization framework for Python that can solve compliance (stiffness),
+                    mechanism synthesis and heat conduction problems in 2D and 3D.
+                </li>
+            </ul>
+        </div>
+
+        <h2>Teaching</h2>
+        <div class="row">
+            <ul>
+                <li>Applied Machine Learning, University of Amsterdam, 2017 – 2020</li>
+                <li>iOS Game Development, Skolkovo Institute of Science and Technology, 2016</li>
+            </ul>
+        </div>
+
+
+        <h2>Students</h2>
+        <div class="row">
+            <ul>
+                <li>Cees Kaandorp: Video summarization using contrastive learning</li>
+                <li>Lucas Meijer: Color capsules</li>
+                <li>Dario E. Shehni Abbaszadeh: Learning affine capsules by contrasting coordinates</li>
+                <li>Dave Meijdam: Maximizing generalization of spatial data to minimize payload
+                    and retain visual representation</li>
+                <li>Jonne Goedhart: Application of autoencoders to the analysis of Raman hyperspectral imagery</li>
+                <li>Daan Ferdinandusse: Transformation-equivariant models</li>
+                <li><a href="https://zardinality.github.io/">Gongze Cao</a>: On free-form normalizing flows</li>
+                <li>Michał Szmaja: Scale-equivariant convolutional neural networks</li>
+                <li><a href="https://www.janjetze.nl">Jan Jetze Beitler</a>: Orthogonal
+                    weight parametrization for dimensionality
+                    reduction in neural networks</li>
+            </ul>
+        </div>
+
+        <h2>Reviewing</h2>
+        <div class="row">
+            <ul>
+                <li>ICML INNF+ 2021</li>
+                <li>ICCV 2021</li>
+                <li>CVPR 2018, 2021</li>
+                <li>ICLR 2021</li>
+                <li>WACV 2021</li>
+                <li>Computer Vision and Image Understanding</li>
+                <li>Engineering Optimization</li>
+                <li>Computer Methods in Applied Mechanics and Engineering</li>
+                <li>The Visual Computer</li>
+            </ul>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
