@@ -1,1 +1,1 @@
-# isosnovik.github.io
+# amoskalev.github.io
